@@ -1,0 +1,46 @@
+*{
+    font-family: 'Lato', sans-serif !important;
+}
+.main-header .logo{
+    float: right;
+}
+.main-header .navbar-custom-menu{
+    margin-left: 75px;
+    margin-right: 0;
+}
+.menu li ul a{
+    text-align: right;
+}
+.fa-angle-right{
+    transform: scaleX(-1);
+}
+.menu ul li ul li:hover ul{
+    right: 100%;
+}
+.select2-container .select2-selection--single .select2-selection__rendered {
+    text-align: right;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+    left: 3px;
+    right: auto;
+}
+.select2-container--default .select2-results__option--highlighted[aria-selected]{
+    text-align: right;
+}
+.menu li {
+    float: right;
+}
+.small-box .icon{
+    left: 10px;
+
+    right: auto;
+}
+.box-header > .box-tools {
+    position: absolute;
+    right: auto;
+    left: 10px;
+    top: 5px;
+}
+.developer-logo{
+    left:20%;
+}
